@@ -1,0 +1,46 @@
+body{
+    font-family: calibri;
+    font-weight: bold;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+h1{
+    color: black;
+    font-family: calibri;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.profile img{
+  margin: 0 auto 5px;
+}
+
+.wrapper{
+    padding-top: 60px;
+    display: float;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.intro{
+    max-width: 1500px;      
+    margin: 0px auto;    
+    padding: 0 40px;       
+    color: #30364F;
+    font-family: calibri;
+    font-size: 25px;       
+    font-weight: bold; 
+    text-align: justify;
+}
